@@ -1,0 +1,36 @@
+.how-to {
+  margin-top: 160px;
+  display: flex;
+  &__img {
+    
+  }
+  &__info {
+    .info {
+      &__title {
+        margin-top: 102px;
+        margin-bottom: 40px;
+        display: flex;
+        width: 265px;
+        height: 50px;
+        flex-direction: column;
+        justify-content: center;
+        color: #ee4d47;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 166.667% */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+      }
+      &__descr {
+        width: 455px;
+        height: 287px;
+        color: var(--text, #402b2b);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+      }
+    }
+  }
+}

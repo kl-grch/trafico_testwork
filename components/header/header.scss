@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  &__logo {
+    width: 212px;
+  }
+  &__links {
+    width: 604px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-right: 12px;
+    .links {
+      &__button {
+        width: 158px;
+        height: 60px;
+        border-radius: 5px;
+        background: #ee4d47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+  }
+}

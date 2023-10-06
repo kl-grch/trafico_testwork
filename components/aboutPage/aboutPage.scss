@@ -1,0 +1,49 @@
+.about-page {
+  display: flex;
+  gap: 25px;
+  margin-top: 105px;
+  &__info {
+    margin-left: 5px;
+    height: 550px;
+    .info {
+      &__title {
+        color: #ee4d47;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 166.667% */
+        letter-spacing: 2.4px;
+        width: 166px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-top: 74px;
+        margin-bottom: 40px;
+      }
+      &__descr {
+        width: 470px;
+        height: 156px;
+        color: var(--text, #402b2b);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        margin-bottom: 70px;
+      }
+      &__question {
+        color: var(--text, #402b2b);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        width: 570px;
+        height: 160px;
+        background-color: rgba(252, 221, 212, 0.4);
+        padding: 30px 55px;
+        border-left: 10px solid #ed4d47;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  padding: 52px 0 94px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__copyright {
+    width: 465px;
+    height: 40px;
+    color: var(--text, #402b2b);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__links {
+    width: 170px;
+    height: 36px;
+    display: flex;
+    gap: 31px;
+    margin-right: 95px;
+  }
+}
